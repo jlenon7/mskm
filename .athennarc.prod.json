@@ -1,0 +1,13 @@
+{
+  "isSlim": true,
+  "services": ["#src/services/app.service"],
+  "providers": [
+    "@athenna/core/providers/CoreProvider"
+  ],
+  "commands": {
+    "app": {
+      "path": "#src/console/commands/app.command",
+      "loadApp": true
+    }
+  }
+}
