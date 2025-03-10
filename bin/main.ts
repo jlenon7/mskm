@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import 'reflect-metadata'
 import sourceMapSupport from 'source-map-support'
 
