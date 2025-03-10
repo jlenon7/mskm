@@ -12,4 +12,4 @@ const ignite = await new Ignite().load(import.meta.url, {
   athennaRcPath: '.athennarc.prod.json'
 })
 
-await ignite.console(process.argv, { displayName: 'Athenna' })
+await ignite.console(process.argv, { displayName: 'MSKM' })
