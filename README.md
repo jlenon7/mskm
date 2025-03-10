@@ -12,11 +12,11 @@ npm i @txsoura/mskm
 
 ## Features
 
-* Create, List, Delete your SSH key(s)
-* Manage all your SSH keys by name
-* Choose and set a default SSH key
-* Display current SSH key name
-* Copy specific SSH public key by name
+* Create, List, Delete your SSH key(s);
+* Manage all your SSH keys by name;
+* Choose and set a default SSH key;
+* Display current SSH key name;
+* Copy specific SSH public key by name.
 
 ### Available commands
 
