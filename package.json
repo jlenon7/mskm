@@ -1,9 +1,18 @@
 {
-  "name": "@athenna/athenna",
+  "name": "@txsoura/mskm",
   "version": "1.0.0",
-  "license": "UNLICENSED",
+  "description": "Txsoura MSKM - a simple CLI to manage multiple SSH Keys",
+  "license": "MIT",
+  "keywords": [
+    "ssh",
+    "multiple-ssh-keys",
+    "cli"
+  ],
+  "homepage": "https://github.com/txsoura/mskm",
+  "repository": "https://github.com/txsoura/mskm.git",
+  "author": "Victor Tesoura Júnior <txsoura@yahoo.com>",
   "bin": {
-    "athenna": "./bin/main.js"
+    "mskm": "./bin/main.js"
   },
   "engines": {
     "node": ">=16.0.0"
