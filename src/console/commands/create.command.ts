@@ -31,7 +31,7 @@ export class CreateCommand extends BaseCommand {
   }
 
   public async handle(): Promise<void> {
-    this.logger.simple('[ Generatting SSH key ]')
+    this.logger.simple('[ Generating SSH key ]')
 
     const { stderr } = await Exec.shell(
       `ssh-keygen -t ${this.type} -N "${this.password}" -f ~/.ssh/${this.name}`
