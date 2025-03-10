@@ -1,13 +1,15 @@
 {
   "isSlim": true,
   "services": ["#src/services/app.service"],
-  "providers": [
-    "@athenna/core/providers/CoreProvider"
-  ],
+  "providers": ["@athenna/core/providers/CoreProvider"],
   "commands": {
-    "app": {
-      "path": "#src/console/commands/app.command",
-      "loadApp": true
-    }
+    "copy": "#src/console/commands/copy.command",
+    "create": "#src/console/commands/create.command",
+    "current": "#src/console/commands/current.command",
+    "delete": "#src/console/commands/delete.command",
+    "list": "#src/console/commands/list.command",
+    "show": "#src/console/commands/show.command",
+    "update": "#src/console/commands/update.command",
+    "use": "#src/console/commands/use.command"
   }
 }
