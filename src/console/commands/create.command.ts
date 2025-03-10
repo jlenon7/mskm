@@ -4,20 +4,20 @@ import { Argument, BaseCommand, Option } from '@athenna/artisan'
 export class CreateCommand extends BaseCommand {
   @Argument({
     required: true,
-    description: 'The ssh key name'
+    description: 'The SSH key name'
   })
   private name: string
 
   @Option({
     signature: '-t, --type <type>',
-    description: 'The ssh key type | Options: rsa, dsa, ecdsa, ed25519',
+    description: 'The SSH key type | Options: rsa, dsa, ecdsa, ed25519',
     default: 'rsa'
   })
   private type: 'rsa' | 'dsa' | 'ecdsa' | 'ed25519'
 
   @Option({
     signature: '-p, --password <password>',
-    description: 'The ssh key passphrase',
+    description: 'The SSH key passphrase',
     default: ''
   })
   private password: string

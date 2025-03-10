@@ -5,7 +5,7 @@ import { File, Path } from '@athenna/common'
 export class UseCommand extends BaseCommand {
   @Argument({
     required: true,
-    description: 'The ssh key name'
+    description: 'The SSH key name'
   })
   private name: string
 

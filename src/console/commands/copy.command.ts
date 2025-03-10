@@ -4,7 +4,7 @@ import { AppService } from '#src/services/app.service'
 export class CreateCommand extends BaseCommand {
   @Argument({
     required: true,
-    description: 'The ssh key name'
+    description: 'The SSH key name'
   })
   private name: string
 
