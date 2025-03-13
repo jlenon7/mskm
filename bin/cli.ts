@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
-import { Exec } from '@athenna/common'
+import { sep } from 'node:path'
+import { Exec, Module } from '@athenna/common'
 
-Exec.artisan('./bin/main.js', {
+const dirname = Module.createDirname(import.meta.url)
+
+Exec.artisan(`${dirname}${sep}main.js`, {
   nodeOptions: ['--disable-warning=DEP0180', '--disable-warning=DEP0040']
 })
