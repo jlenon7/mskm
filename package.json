@@ -1,6 +1,6 @@
 {
   "name": "@txsoura/mskm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Txsoura MSKM - a simple CLI to manage multiple SSH Keys",
   "license": "MIT",
   "keywords": [
