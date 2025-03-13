@@ -20,7 +20,8 @@
   "files": [
     "bin",
     "src",
-    ".athennarc.json"
+    ".athennarc.json",
+    ".athennarc.prod.json"
   ],
   "scripts": {
     "start": "node artisan serve",
