@@ -1,8 +1,8 @@
 git:
-	git checkout master
+	git checkout dev
 	git fetch -p
-	git pull origin master
+	git pull origin dev
 
 pull:
-	git pull origin master
+	git pull origin dev
 	git pull
